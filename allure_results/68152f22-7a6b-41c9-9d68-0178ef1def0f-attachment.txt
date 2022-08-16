@@ -1,0 +1,2 @@
+[32mINFO    [0m actions.header_check_actions:header_check_actions.py:33 Нажать кнопку "Самокат" в хедере.
+[32mINFO    [0m actions.header_check_actions:header_check_actions.py:38 Проверить, что домашняя страница Яндекс.Самокат открылась.

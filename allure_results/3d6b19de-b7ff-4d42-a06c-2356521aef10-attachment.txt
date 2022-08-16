@@ -1,0 +1,2 @@
+[32mINFO    [0m actions.header_check_actions:header_check_actions.py:18 Нажать кнопку "Яндекс" в хедере.
+[32mINFO    [0m actions.header_check_actions:header_check_actions.py:23 Проверить, что страница открылась.
