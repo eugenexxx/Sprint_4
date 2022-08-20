@@ -1,9 +1,11 @@
 import pytest
-from fixture.application import Application
+from selenium import webdriver
 
 
-@pytest.fixture(autouse=True)
-def app(request):
-    fixture = Application()
-    request.addfinalizer(fixture.destroy)
-    return fixture
+@pytest.fixture(scope='function')
+def driver():
+    driver = webdriver.Firefox()
+    driver.maximize_window()
+    driver.get("https://qa-scooter.praktikum-services.ru/")
+    yield driver
+    driver.quit()
